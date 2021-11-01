@@ -37,6 +37,7 @@ def searchAmazon(query):
         titles, prices, links = res.select("h2 a span"), res.select("span.a-price span"), res.select("h2 a.a-link-normal")
         product = formatter.formatResult("amazon",  titles, prices, links)
         products.append(product)
+        print(res)
     return products
 
 def searchWalmart(query):

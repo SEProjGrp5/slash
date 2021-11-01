@@ -18,6 +18,7 @@ import csv_writer
 
 def main():
     parser = argparse.ArgumentParser(description="Slash")
+    parser.add_argument('--open', type=str, help="Open Full Program; T for yes F for mini version", default="F")
     parser.add_argument('--search', type=str, help='Product search query')
     parser.add_argument('--num', type=int, help="Maximum number of records", default=3)
     parser.add_argument('--sort', type=str, nargs='+', help="Sort according to re (relevance: default), pr (price) or ra (rating)", default="re")
@@ -25,7 +26,9 @@ def main():
     parser.add_argument('--des', action='store_true', help="Sort in descending (non-increasing) order")
     parser.add_argument('--cd', type=str,  help="Change directory to save CSV file with search results", default=os.getcwd())
     args = parser.parse_args()
-    
+    if(args.open=='T'):
+        print("open full")
+        return
     products_1 = scraper.searchAmazon(args.search)
     products_2 = scraper.searchWalmart(args.search)
 
