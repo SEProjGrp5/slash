@@ -8,7 +8,7 @@
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/secheaper/slash)
 ![Github pull requests](https://img.shields.io/github/issues-pr/secheaper/slash)
 ![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/secheaper/slash)
-[![codecov](https://codecov.io/gh/secheaper/slash/branch/main/graph/badge.svg?token=I2J7ICDDI9)](https://codecov.io/gh/secheaper/slash)
+[![codecov](https://codecov.io/gh/secheaper/slash/branch/main/graph/badge.svg?token=I2J7ICDDI9)](https://codecov.io/gh/SEProjGrp5/slash)
 
 Slash is a command line tool that scrapes the most popular e-commerce websites to get the best deals on the searched items across these websites. 
 - **Fast**: With slash, you can save over 50% of your time by comparing deals across websites within seconds
