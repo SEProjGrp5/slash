@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@main
       - uses: codecov/codecov-action@v2
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+          token: 14b08c83-6881-4129-af89-4bfd95b9ab48
 
       - name: Generate coverage report
         run: |
