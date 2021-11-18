@@ -68,14 +68,17 @@ python slash.py --search socks
 ---
 Currently the tool supports the following flags and command line arguments. These flags and arguments can be used to quickly filter and guide the search to get you the best results very quickly.
 
-| Arguments | Type | Default | Description                                                          |
-|-----------|------|---------|----------------------------------------------------------------------|
-| --search  | str  | None    | The product name to be used as the search query                      |
-| --num     | int  | 3       | Maximum number of products to search                                 |
-| --sort    | str  | re      | Sort results by relevance (re) or by price (pr)                      |
-| --des     | bool | -       | Set boolean flag if results should be sorted in non-increasing order |
-| --csv     |      | -       | Save results as CSV                                                  |
-
+| Arguments | Type | Default | Description                                                                                  |
+|-----------|------|---------|----------------------------------------------------------------------------------------------|
+| --search  | str  | None    | The product name to be used as the search query                                              |
+| --num     | int  | 3       | Maximum number of products to search                                                         |
+| --sort    | str  | re      | Sort results by relevance (re) or by price (pr)                                              |
+| --des     | bool | -       | Set boolean flag if results should be sorted in non-increasing order                         |
+| --csv     |      | -       | Save results as CSV                                                                          |
+| --full    | str  | F       | T for full version of app; F for mini version of app                                         |
+| --link    |      |         | Show links in the table                                                                      |
+|--currency | str  |         | Display the amount in specified currency(inr, euro, aud, yuan, yen, pound)                   |
+ 
 :card_index_dividers: Some Examples
 ---
 
