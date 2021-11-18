@@ -124,7 +124,7 @@ class full_version:
 			elif choice==2:
 				self.extract_list()
 			elif choice==3:
-				self.currency=lower(input("Enter INR/EUR\n"))
+				self.currency=input("Enter INR/EUR\n").lower()
 			elif choice ==4:
 				print("Thank You for Using Slash")
 				flag_loop = 0
